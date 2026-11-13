@@ -17,16 +17,13 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <Link href="/" className="mb-5 inline-flex items-center gap-3">
               <Image
-                src="/images/shodeshi-arong-logo.jpg"
-                alt="Shodeshi Arong logo"
-                width={60}
-                height={60}
+                src="/logo.png"
+                alt="logo"
+                width={100}
+                height={100}
                 className="h-14 w-14 object-contain"
               />
 
-              <span className="text-2xl font-bold text-[#C8101E]">
-                Shodeshi Arong
-              </span>
             </Link>
 
             <p className="max-w-md text-sm leading-7 text-gray-600">
